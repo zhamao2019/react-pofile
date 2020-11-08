@@ -1,0 +1,16 @@
+.jumbo{
+    color: #fff;
+    font-family: 'Playfair Display', serif;;
+}
+
+.jumbo .h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 5px 0;
+}
+
+.jumbo .small{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
