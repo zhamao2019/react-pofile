@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 
 function Header() {
     return(
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" sticky='top'>
             <Navbar.Brand>Bing's Website</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

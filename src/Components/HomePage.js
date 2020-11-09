@@ -1,9 +1,15 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 import Jumbo from './Jumbo';
+import Skills from './Skills';
 
 function HomePage(props){
     return(
-        <Jumbo title={props.title} name={props.name} subTitle={props.subTitle}/>
+        <Container fluid className='p-0'>
+            <Jumbo title={props.title} name={props.name} subTitle={props.subTitle}/>
+            <Skills />
+
+        </Container>
     );
 }
 
