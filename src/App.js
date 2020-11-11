@@ -30,8 +30,8 @@ class App extends React.Component {
         subTitle: "I'm a web developer & designer based in Canada",
       },
       portfolio: {
-        title: '',
-        subTitle: '',
+        title: 'My Portfolio',
+        subTitle: 'Projects',
       }
     }
   }
